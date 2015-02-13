@@ -1,0 +1,18 @@
+$ORIGIN bsdguy.net.
+$TTL 6h
+
+@ IN SOA ns1.bsdguy.org. root.bsdguy.org. (
+	2	; serial
+	1h	; refresh
+	30m	; retry
+	7d	; expiration
+	1h )	; minimum
+
+	NS	ns1.bsdguy.org.
+	A	149.210.140.126
+
+	NS	b.ns.buddyns.com.
+	NS	d.ns.buddyns.com.
+
+www	CNAME bsdguy.net.
+blog	CNAME blog.bsdguy.org.
