@@ -1,7 +1,7 @@
 PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R7/bin:/usr/X11R6/bin:/usr/pkg/bin
 PATH=${PATH}:/usr/pkg/sbin:/usr/games:/usr/local/bin:/usr/local/sbin
 
-TERM=xterm-265color
+TERM=xterm-256color
 
 autoload -U colors && colors
 
