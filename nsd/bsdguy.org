@@ -9,7 +9,7 @@ $TTL 6h
 	1h )	; minimum
 
 	NS	ns1.bsdguy.org.
-	A	149.210.140.126
+	A	108.61.178.170
 
 	NS	b.ns.buddyns.com.
 	NS	d.ns.buddyns.com.
