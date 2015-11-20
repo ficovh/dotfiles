@@ -19,6 +19,8 @@ runtime! debian.vim
     Plugin 'godlygeek/tabular'
     Plugin 'bling/vim-airline'
     Plugin 'altercation/vim-colors-solarized'
+    " Nice colors for vim
+    Plugin 'morhetz/gruvbox'
 
 
 " Nerdtree
@@ -49,7 +51,7 @@ runtime! debian.vim
 " Appearance Settings {{{
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
-    colorscheme jellybeans
+    colorscheme gruvbox
     set gfn=Monaco
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
