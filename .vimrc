@@ -1,23 +1,20 @@
-" This line should not be removed as it ensures that various options are
-" properly set to work with the Vim-related packages.
 runtime! debian.vim
 
 " Plugins - Vundle Plugin Manager {{{
     set rtp+=~/.vim/bundle/Vundle.vim/
     call vundle#rc()
     " Github Repos
-    Bundle 'gmarik/vundle'
+    Bundle 'VundleVim/vundle'
     Bundle 'Townk/vim-autoclose'
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
     Bundle 'ervandew/supertab'
-    Bundle 'Lokaltog/vim-powerline'
+    Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
     " vim-scripts Repos
     Bundle 'jellybeans.vim'
 
     " Programming vim
     Plugin 'godlygeek/tabular'
-    Plugin 'bling/vim-airline'
     Plugin 'altercation/vim-colors-solarized'
     " Nice colors for vim
     Plugin 'morhetz/gruvbox'
@@ -33,8 +30,11 @@ runtime! debian.vim
     set completeopt=menuone,longest,preview
 
 " Powerline
-    set guifont=Monaco
     let g:Powerline_symbols = 'fancy'
+    set encoding=utf-8
+    set t_Co=256
+    set term=xterm-256color
+    set termencoding=utf-8
 " }}}
 
 " General Settings {{{
@@ -52,7 +52,7 @@ runtime! debian.vim
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
     colorscheme gruvbox
-    set gfn=Monaco
+    "set gfn=Monaco
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
     set scrolloff=2                " Keep 2 scroll lines above/below cursor
@@ -69,6 +69,7 @@ runtime! debian.vim
         set guioptions-=m            " Remove menu bar
         set guioptions-=T            " Remove toolbar
         set guioptions-=r            " Remove right-hand scroll bar
+        set guifont=Inconsolata\ for\ Powerline\ Medium\ 13
     endif
 " }}}
     
