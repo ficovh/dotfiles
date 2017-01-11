@@ -4,12 +4,12 @@ runtime! debian.vim
     set rtp+=~/.vim/bundle/Vundle.vim/
     call vundle#rc()
     " Github Repos
-    Bundle 'VundleVim/vundle'
+   " Bundle 'VundleVim/vundle'
     Bundle 'Townk/vim-autoclose'
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
     Bundle 'ervandew/supertab'
-    Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+    "Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
     " vim-scripts Repos
     Bundle 'jellybeans.vim'
 
@@ -18,6 +18,9 @@ runtime! debian.vim
     Plugin 'altercation/vim-colors-solarized'
     " Nice colors for vim
     Plugin 'morhetz/gruvbox'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+
 
 
 " Nerdtree
@@ -29,12 +32,18 @@ runtime! debian.vim
     let g:SuperTabDefaultCompletionType = "context"
     set completeopt=menuone,longest,preview
 
+" Airline
+    let g:airline_powerline_fonts = 1
+    let g:airline_theme = 'luna'
+"}}}
+
+
 " Powerline
-    let g:Powerline_symbols = 'fancy'
-    set encoding=utf-8
-    set t_Co=256
-    set term=xterm-256color
-    set termencoding=utf-8
+    "let g:Powerline_symbols = 'fancy'
+    "set encoding=utf-8
+    "set t_Co=256
+    "set term=xterm-256color
+    "set termencoding=utf-8
 " }}}
 
 " General Settings {{{
