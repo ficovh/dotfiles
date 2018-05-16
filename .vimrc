@@ -7,7 +7,8 @@ runtime! debian.vim
    " Bundle 'VundleVim/vundle'
     Bundle 'Townk/vim-autoclose'
     Bundle 'scrooloose/nerdtree'
-    Bundle 'scrooloose/syntastic'
+
+    "Bundle 'scrooloose/syntastic'
     Bundle 'ervandew/supertab'
     "Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
     " vim-scripts Repos
@@ -20,6 +21,12 @@ runtime! debian.vim
     Plugin 'morhetz/gruvbox'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
+    " HTML tags
+    Plugin 'alvan/vim-closetag'
+    Plugin 'tpope/vim-fugitive'
+
+    "Vim python syntax highligh
+    Plugin 'vim-syntastic/syntastic'
 
 
 
@@ -34,7 +41,7 @@ runtime! debian.vim
 
 " Airline
     let g:airline_powerline_fonts = 1
-    let g:airline_theme = 'luna'
+    let g:airline_theme = 'papercolor'
 "}}}
 
 
