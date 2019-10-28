@@ -1,0 +1,9 @@
+set wm=3
+set sm
+set tabstop=4
+set autoindent
+set showmatch
+
+"map S to quit
+map S :wq!
+
