@@ -41,7 +41,7 @@ runtime! debian.vim
 
 " Airline
     let g:airline_powerline_fonts = 1
-    let g:airline_theme = 'papercolor'
+    let g:airline_theme = 'ayu_light'
 "}}}
 
 
