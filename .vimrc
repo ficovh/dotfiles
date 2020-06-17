@@ -28,6 +28,9 @@ runtime! debian.vim
     "Vim python syntax highligh
     Plugin 'vim-syntastic/syntastic'
 
+    "theme ayu
+    Plugin 'ayu-theme/ayu-vim'
+
 
 
 " Nerdtree
@@ -41,7 +44,7 @@ runtime! debian.vim
 
 " Airline
     let g:airline_powerline_fonts = 1
-    let g:airline_theme = 'ayu_light'
+    let g:airline_theme = 'jellybeans'
 "}}}
 
 
@@ -67,7 +70,11 @@ runtime! debian.vim
 " Appearance Settings {{{
     set laststatus=2               " Show statusline even when no window split 
     set background=dark
-    colorscheme gruvbox
+
+    "Ayu setting
+    set termguicolors
+    let ayucolor="mirage"
+    colorscheme ayu
     "set gfn=Monaco
     set number                     " Line numbers
     set cursorline                 " Highlights cursor line
