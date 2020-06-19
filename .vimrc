@@ -14,6 +14,10 @@ runtime! debian.vim
     " vim-scripts Repos
     Bundle 'jellybeans.vim'
 
+    "RST & markdown
+    Bundle 'Rykka/rik.vim'
+    Bundle 'garielelana/vim-markdown'
+
     " Programming vim
     Plugin 'godlygeek/tabular'
     Plugin 'altercation/vim-colors-solarized'
